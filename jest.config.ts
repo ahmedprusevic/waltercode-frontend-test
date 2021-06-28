@@ -10,6 +10,7 @@ export default {
 
 	// A list of paths to directories that Jest should use to search for files in
 	roots: ["<rootDir>/src"],
+	testEnvironment: "node",
 
 	// Jest transformations -- this adds support for TypeScript
 	// using ts-jest

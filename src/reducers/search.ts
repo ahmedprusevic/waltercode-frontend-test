@@ -65,6 +65,7 @@ export default function SearchReducer(
 				...state,
 				searchArticles: [],
 				pageNumber: 1,
+				sortBy: "relevancy",
 			};
 		default:
 			return {
